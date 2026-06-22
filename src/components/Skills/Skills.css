@@ -1,0 +1,15 @@
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.skill {
+    min-height: 1rem;
+    padding: 0.5rem 1rem;
+    background: #222;
+    color: white;
+    border-radius: 6px;
+    font-family: cursive;
+}
