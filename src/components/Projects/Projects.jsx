@@ -1,4 +1,4 @@
-import { portfolioData } from "../../data/portfolioData";
+import { portfolioData } from "../../data/portfolioData.js";
 import './Projects.css'
 
 function Projects() {
@@ -16,8 +16,10 @@ function Projects() {
               {project.tech.map((tec) => (
                 <span key={tec}>{tec}</span>
               ))}
-              <span className="link"><a href={project.github}>GitHub</a></span>
-              <span className="link"><a href={project.liveDemo}>Live Demo</a></span>
+            </div>
+            <div className="project-links">
+              {project.github ? <a href={project.github} target="_blank">GitHub</a> : null}
+              {project.liveDemo ? <a href={project.liveDemo} target="_blank">Live Demo</a> : null}
             </div>
           </div>
         ))}
