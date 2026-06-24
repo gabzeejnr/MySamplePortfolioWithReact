@@ -70,7 +70,7 @@ export const portfolioData = {
             description: "My personal portfolio",
             tech: ["React"],
             github: "https://github.com/gabzeejnr/MySamplePortfolioWithReact",
-            liveDemo: "https://example.com"
+            liveDemo: "https://my-sample-portfolio-with-react.vercel.app/"
         },
         {
             title: "Client Portfolio Website",
