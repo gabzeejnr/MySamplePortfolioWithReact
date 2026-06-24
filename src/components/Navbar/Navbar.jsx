@@ -2,7 +2,7 @@ import './Navbar.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faBars,faTimes } from "@fortawesome/free-solid-svg-icons";
 import { useState } from 'react';
-import { portfolioData } from '../../data/portfolioData';
+import { portfolioData } from '../../data/portfolioData.js';
 
 function Navbar() {
   
@@ -19,7 +19,7 @@ function Navbar() {
           <a href="#projects">PROJECTS</a>
           <a href="#skills">SKILLS</a>
           <a href="#contact">CONTACT</a>
-          <a href={`tel:${portfolioData.contact.phone}`}><FontAwesomeIcon icon={faPhone} className='navbar-phone' /></a>
+          <a href={`tel:${portfolioData.contact[1].value}`}><FontAwesomeIcon icon={faPhone} className='navbar-phone' /></a>
         </div>
       </nav>
       <nav id="mobile-navbar">

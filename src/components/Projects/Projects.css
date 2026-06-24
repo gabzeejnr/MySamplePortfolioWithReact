@@ -52,10 +52,23 @@
     font-family: cursive;
 }
 
-.tech-stack .link{
-  background: rgba(0,0,0,0.5);
+.project-links {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1rem;
 }
 
-.tech-stack span a {
-  color: black;
+.project-links a {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    background: #222;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.project-links a:hover {
+    transform: translateY(-2px);
+    background: #444;
 }
