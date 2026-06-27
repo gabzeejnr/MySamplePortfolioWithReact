@@ -78,6 +78,13 @@ export const portfolioData = {
             tech: ["HTML", "CSS"],
             github: "https://example.com",
             liveDemo: "https://johnlmichellawfirm.netlify.app/"
+        },
+        {
+            title: "Calculator App",
+            description: "A calculator built for simple mathematical equations",
+            tech: ["React"],
+            github: "https://github.com/gabzeejnr/Calculator-with-React",
+            liveDemo: "https://gabrielreactcalculator.vercel.app"
         }
     ],
     contact: [
